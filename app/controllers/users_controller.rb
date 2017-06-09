@@ -13,7 +13,7 @@ private
 	def user_params
 		params.
 		require(:user).
-		premit(:username,
+		permit(:username,
 			:password,
 			:password_confirmation)
 	end
